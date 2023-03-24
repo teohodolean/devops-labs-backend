@@ -39,4 +39,4 @@ jobs:
             --network devopslabs \
             --name devops-labs-backend \
             --env ConnectionStrings__MySQL="Server=${{ secrets.DB_HOST }};Port=3306;User=${{ secrets.DB_USERNAME }};Password=${{ secrets.DB_PASSWORD }};Database=devops-labs" \
-            ${{ secrets.DOCKER_USERNAME }}/devops-labs-backend:3
+            ${{ secrets.DOCKER_USERNAME }}/devops-labs-backend:${{ github.run_number }}
