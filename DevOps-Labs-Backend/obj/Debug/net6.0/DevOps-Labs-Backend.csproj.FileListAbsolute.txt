@@ -1,0 +1,7 @@
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Debug\net6.0\DevOps-Labs-Backend.csproj.AssemblyReference.cache
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Debug\net6.0\DevOps-Labs-Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Debug\net6.0\DevOps-Labs-Backend.AssemblyInfoInputs.cache
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Debug\net6.0\DevOps-Labs-Backend.AssemblyInfo.cs
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Debug\net6.0\DevOps-Labs-Backend.csproj.CoreCompileInputs.cache
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Debug\net6.0\DevOps-Labs-Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Debug\net6.0\DevOps-Labs-Backend.MvcApplicationPartsAssemblyInfo.cache

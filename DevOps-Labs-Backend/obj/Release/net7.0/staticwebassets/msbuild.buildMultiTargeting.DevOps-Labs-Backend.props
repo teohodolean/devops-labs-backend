@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/DevOps-Labs-Backend.props" />
+</Project>

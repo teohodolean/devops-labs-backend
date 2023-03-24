@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/razvanonet/Softbinator/Labs/DevOps-Labs-Backend/DevOps-Labs-Backend/DevOps-Labs-Backend.csproj": {}
+  },
+  "projects": {
+    "/Users/razvanonet/Softbinator/Labs/DevOps-Labs-Backend/DevOps-Labs-Backend/DevOps-Labs-Backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/razvanonet/Softbinator/Labs/DevOps-Labs-Backend/DevOps-Labs-Backend/DevOps-Labs-Backend.csproj",
+        "projectName": "DevOps-Labs-Backend",
+        "projectPath": "/Users/razvanonet/Softbinator/Labs/DevOps-Labs-Backend/DevOps-Labs-Backend/DevOps-Labs-Backend.csproj",
+        "packagesPath": "/Users/razvanonet/.nuget/packages/",
+        "outputPath": "/Users/razvanonet/Softbinator/Labs/DevOps-Labs-Backend/DevOps-Labs-Backend/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/razvanonet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://s3.amazonaws.com/nuget-test-bucket/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

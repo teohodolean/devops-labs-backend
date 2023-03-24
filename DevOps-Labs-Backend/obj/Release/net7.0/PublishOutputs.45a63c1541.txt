@@ -1,0 +1,16 @@
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\DevOps-Labs-Backend.exe
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\DevOps-Labs-Backend.dll
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\DevOps-Labs-Backend.runtimeconfig.json
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\DevOps-Labs-Backend.pdb
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\MySqlConnector.dll
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\acbc2\source\repos\DevOps-Labs-Backend\DevOps-Labs-Backend\obj\Release\net7.0\PubTmp\Out\DevOps-Labs-Backend.deps.json
