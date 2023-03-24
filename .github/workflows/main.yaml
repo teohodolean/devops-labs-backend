@@ -1,8 +1,42 @@
-DB_HOST:  mariadb
-DB_PASSWORD: v8P1eS1YwU4K1dm
-DB_USERNAME: root
-DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-HOST: 51.15.206.80
-SSH_KEY: ${{ secrets.SSH_KEY }}
-SSH_USERNAME: ubuntu
+name: Backend Cloud Deployment
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Initial checkout
+        uses: actions/checkout@v3
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Build & push docker image
+        run: |
+          docker build -f DevOps-Labs-Backend/Dockerfile -t ${{ secrets.DOCKER_USERNAME }}/devops-labs-backend:${{ github.run_number }} .
+          docker push ${{ secrets.DOCKER_USERNAME }}/devops-labs-backend:${{ github.run_number }}
+  deploy:
+    runs-on: ubuntu-22.04
+    needs: [build]
+    steps:
+      - name: Start the docker container
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          port: 22
+          script: |
+            docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+            docker run -d \
+            -p 4000:4000 \
+            --network devopslabs \
+            --name devops-labs-backend \
+            --env ConnectionStrings__MySQL="Server=${{ secrets.DB_HOST }};Port=3306;User=${{ secrets.DB_USERNAME }};Password=${{ secrets.DB_PASSWORD }};Database=devops-labs" \
+            ${{ secrets.DOCKER_USERNAME }}/devops-labs-backend:3
